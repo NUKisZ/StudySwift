@@ -304,7 +304,8 @@ print("前20位之和是:\(sum)")
 
 /*输入一个数判断这个数是几位数*/
 
-#if false
+#if true
+print("请输入一个整数:")
 var num=Int(Scanf())!
 var n=0
 if num==0{

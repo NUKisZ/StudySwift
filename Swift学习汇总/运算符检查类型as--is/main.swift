@@ -16,11 +16,12 @@ is运算符主要用于判断前面的引用类型变量时候引用后面的类
 
 ps:在使用is运算符时需要注意:is运算符前面操作变量编译时类型要么与后面的类相同,要么与后面的类具有继承关系,否则会引发编译错误
 */
-#if false
+#if true
     //定义一个协议可以被OC类是用协议
     protocol TestProtocol{}
     //声明hello是使用NSObject类,着在编译过程中是NSObject类 ,hello实是运行中的类是NSString
 let hello:NSObject = "hello"
+print(hello.isKindOfClass(NSString.self))
 print("当前hello是否属于NSString类型的实例:\(hello is NSString)")
     //NSDate代表时间 NSData二进制
     //NSDate与NSObjec存在继承关系, is来检测
