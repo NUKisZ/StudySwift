@@ -90,7 +90,7 @@ for index in str10.characters.indices{
 
 //我们要对字符串进行,添加,插入,删除,替换等操作
 
-var str11="千锋教育"
+var str11="NUK教育"
 //追加字符
 let dot:Character="."
 str11.append(dot)

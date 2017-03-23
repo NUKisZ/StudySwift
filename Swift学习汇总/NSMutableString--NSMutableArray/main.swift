@@ -32,7 +32,7 @@ let range1 = NSRange.init(location: 0, length: 5)
 ms1.deleteCharactersInRange(range1)
 print(ms1)
 //重新设置内容
-ms1.setString("上海千锋")
+ms1.setString("上海")
 print(ms1)
 
 /**

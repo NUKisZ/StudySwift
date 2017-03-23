@@ -64,7 +64,7 @@ NSLog("%c", ch)
 
 //拼接两个字符串
 let str9:NSString = "上海"
-let str9_1:NSString = "千锋"
+let str9_1:NSString = "ZK"
 let str9_2 = str9.stringByAppendingFormat("%@%c", str9_1,ch)
 print(str9_2)
 

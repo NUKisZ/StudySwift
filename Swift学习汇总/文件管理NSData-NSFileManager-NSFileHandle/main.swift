@@ -300,7 +300,7 @@ print(input2!)
     //标准输出.写打开
 var stdOut = NSFileHandle.fileHandleWithStandardOutput()
     //写入数据帮助打印
-let str = "上海千锋教育"
+let str = "上海ZK教育"
 let data = str.dataUsingEncoding(NSUTF8StringEncoding)
 stdOut.writeData(data!)
     //关闭
